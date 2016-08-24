@@ -1,0 +1,50 @@
+.U_title{
+	
+}
+
+.Header{
+	background: gray;
+	position: relative;
+	/*top: 20px;
+	left: 20px;*/
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+
+
+}
+
+.MainMenu{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: green;
+	z-index: 2;
+
+}
+
+.Profile{
+	
+	background: lightgray;
+	position: relative;
+	
+}
+
+.Profile-span{
+	background: red;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+
+.Work{
+
+}
+
+.footer{
+
+}

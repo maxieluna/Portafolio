@@ -1,0 +1,274 @@
+/**UTILIDADES*/
+
+.U-title{
+	color: #00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 0.5em;
+
+
+}
+
+
+.u-contenedor{
+	
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+/* MENU*/
+
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.5em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0px;
+}
+
+.MainMenu-list{
+	margin: 0px;
+	padding: 0px;
+}
+
+.MainMenu-item{
+	display: inline-block;
+
+	
+}
+
+.MainMenu-link:before{
+	content: '*';
+	
+}
+
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+
+/*HEADER*/
+
+.Header{
+	margin-top: 3.5em;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	background-size: 100%;
+	text-align: center;
+	padding: 1em 0px;
+
+}
+
+/* ANIMACIONES CON PSEUDOCLASES!!! */
+
+.Header-image{
+	-webkit-transition:1s;
+	height: 200px;
+	border: 5px solid white;
+	border-radius: 50%;
+
+}
+
+.Header-image:hover{
+border-color: orange;
+border-radius: 0%;
+}	
+
+.Header-image:active{
+	-webkit-transform:rotateX(360deg);
+
+}
+
+
+.Header-link, .Header-name{
+	color: white;
+
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0px;
+}
+
+
+/*PERFIL*/
+
+.Profile{
+	text-align: center;
+}
+
+.Profile-link{
+	background: orange;
+	color: white;
+	text-decoration: none;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	/*border-radius: 0.5em 1em 0.6em 2em;*/
+	border-radius: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+
+.Work-item{
+	display: inline-block;
+}
+
+.Work-imageContainer{
+	margin: 0.8em;
+}
+
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 400px;
+	text-align: center;
+
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+	margin-right: 10em;
+
+}
+
+
+.Footer-left{
+	display: inline-block;
+	width: 30em;
+	text-align: center;
+	vertical-align: top;
+	margin-left: 10em;
+}
+
+.Footer-formInput,
+.Footer-textarea
+{
+	border: none;
+	display: block;
+
+	border-radius: 2em;
+	padding: 0.5em;
+	margin:1em ;
+	margin-bottom: 1em;
+
+
+}
+
+.Footer-textarea{
+	resize: none;
+}
+
+.Footer-button{
+	background: orange;
+	background: linear-gradient(to left, white, orange );
+	color: white;
+	border-radius: 1em;
+	padding: 0.5em;
+	border: none;
+	margin-bottom: 1em;
+	cursor:pointer; /*manito sobre el boton*/
+}
+
+
+.Footer-title{
+	color: white;
+}
+
+
+/*PRUEBO CON PSEUDOCLASES*/
+
+a{
+	/*-webkit-transition:1s;*/
+	
+}
+ 
+a:hover{
+	-webkit-transition:2s;
+	
+	color:white;
+}
+
+.Profile-link:hover{
+	color:red;
+}
+
+.Profile-link:active{
+	background:green;
+}
+
+.icono{
+	
+	/*font-size: 1.15em;
+	border: blue;
+	margin-top: 55em;
+	margin-right: 2em;*/
+
+	padding-top : 0.6em;
+	padding-bottom: 0.7em;
+
+}
+
+.UnSVG{
+	width: 10em;
+	display: inline-block;
+	text-align: center;
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+ /* background:green;*/
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+table, td, th{
+	border: solid #273b47;
+	border-collapse: collapse;
+}
